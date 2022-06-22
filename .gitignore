@@ -1,0 +1,11 @@
+.idea/*
+*/__pycache__/*
+.mypy_cache/
+.pytest_cache
+.vscode/*
+venv
+.DS_Store
+.pytest_cache
+*.csv
+__pycache__
+mlruns
