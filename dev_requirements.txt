@@ -8,3 +8,4 @@ sqlalchemy
 psycopg2-binary
 requests
 flake8==4.0.1
+mypy==0.910
