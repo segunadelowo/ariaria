@@ -44,7 +44,5 @@ jobs:
           cache: 'pip'
       - name: Install dependencies
         run: pip install -r requirements.txt && pip install -r dev_requirements.txt && pip install --upgrade pygments
-      - name: Install package
-        run: pip install -e .
       - name: Run Tests
         run: python -m pytest
