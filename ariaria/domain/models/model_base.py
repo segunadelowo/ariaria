@@ -5,7 +5,7 @@ from typing import Optional, List, Set
 
 
 class ModelBase:
-    def __init__(self, id: int, status: int, is_deleted: bool, created_by: str, last_updated_by: str, created_on: Optional[date], last_updated_on: Optional[date]):
+    def __init__(self, status: int, is_deleted: bool, created_by: str, last_updated_by: str, created_on: Optional[date], last_updated_on: Optional[date]):
         #super().__init__(**kwargs)
         self._id = id
         self._status = status

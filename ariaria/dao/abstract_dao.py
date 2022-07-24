@@ -19,7 +19,7 @@ class AbstractDao(abc.ABC):
         raise NotImplementedError
 
     @abc.abstractmethod
-    def get_all(self):
+    def list(self):
         raise NotImplementedError
 
     @abc.abstractmethod
